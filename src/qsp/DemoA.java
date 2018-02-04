@@ -16,11 +16,11 @@ public class DemoA
 	@Test
 	public void testA() throws Exception
 	{
-		System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
+	/*	System.setProperty("webdriver.chrome.driver", "./driver/chromedriver.exe");
 		URL u=new URL("https://localhost:4444//wd/hub");
 		DesiredCapabilities d=new DesiredCapabilities();
 		d.setBrowserName("chrome");
 		WebDriver driver =new RemoteWebDriver(u,d);
-		driver.close();
+		driver.close();*/
 	}
 }
